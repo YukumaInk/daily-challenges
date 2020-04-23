@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ColorCycle</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>ColorCycle</h1>
+        <div id="square"></div>
+        <div id="inputBox">
+            <div id="priInput">
+                <p>Base Color</p>
+                <input type="text" name="color" id="color" value="#000000">
+            </div>
+            <div id="secInput">
+                <p>Color Change</p>
+                <input type="text" name="colorChange" id="colorChange" class="secLine" value="R,G,B">
+                <p>Time Interval</p>
+                <input type="number" name="time" id="time" class="secLine" value="0.25" step="0.01">
+            </div>
+        </div>
+        <div id="buttonDiv">
+            <button  id="start" onclick="startStop()">Start</button>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

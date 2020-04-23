@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Border Radius</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Border Radius</h1>
+        <div id="content">
+            <div id="grid">
+                <div id="solid">
+                    <div id="top">
+                        <input id="top-left" type="number" value="0">
+                        <input id="top-right" type="number" value="0">
+                    </div>
+                    <div id="bottom">
+                        <input id="bottom-left" type="number" value="0">
+                        <input id="bottom-right" type="number" value="0">
+                    </div>
+                </div>
+            </div>
+            <div id="previwer">
+                <div id="out">
+                    <input id="viewer" value="0px 0px 0px 0px">
+                </div>
+                <button id="in" onclick="copyText()">Copy</button>
+            </div>
+            <div id="sizeChanger">
+                <div id="inputHeight"><p id="inputHeight">Height</p><input type="number" id="Height" value="480"></div>
+                <div id="inputWidth"><p id="inputWidth">Width</p><input type="number" id="Width" value="480"></div>
+            </div>
+            <button id="update" onclick="update()">Update</button>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

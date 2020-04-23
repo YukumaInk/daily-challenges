@@ -1,0 +1,108 @@
+body{
+    background: #f1f1f1;
+    text-align: center;
+}
+#solid{
+    width: 480px;
+    height: 480px;
+    margin: 50px auto;
+    background-color: cadetblue;
+    display: inline-block;
+}
+
+#previwer{
+    width: 480px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+}
+#out{
+    width: 400px;
+    height: 60px;
+    background: rgb(104, 102, 102);
+    border-radius: 10px 0 0 10px;
+}
+#viewer{
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    margin: auto;
+    background: none;
+    border: none;
+}
+#in{
+    font-size: 25px;
+    font-weight: bold;
+    width: 80px;
+    height: 60px;
+    border-radius: 0 10px 10px 0;
+}
+
+#sizeChanger{
+    width: 480px;
+    height: 30px;
+    margin: 50px auto;
+    display: flex;
+}
+#inputHeight{
+    display: flex;
+    margin-left: 60px;
+}
+#inputHeight p{
+    margin: 5px 5px;
+    font-size: 20px;
+}
+#inputWidth{
+    display: flex;
+    margin-left: 60px;
+}
+#inputWidth p{
+    margin: 5px 5px;
+    font-size: 20px;
+}
+input{
+    height: 24px;
+    margin-left: 5px;
+    width: 60px;
+    border-radius: 5px;
+    border-style:solid;
+    text-align: center;
+    font-weight: bold;
+}
+#update{
+    height: 60px;
+    width: 480px;
+    border-style: none;
+    background: orange;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#update:hover{
+    background: rgb(184, 119, 0);
+}
+#update:active{
+    background: rgb(255, 181, 44);
+}
+
+#top{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+}
+#bottom{
+    width: 100%;
+    height: 50%;
+}
+#top-right{
+    margin-left: 50%;
+}
+#bottom-right{
+    position: relative;
+    top: 80%;
+    margin-left: 50%;
+}
+#bottom-left{
+    position: relative;
+    top: 80%;
+}

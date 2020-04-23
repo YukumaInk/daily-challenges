@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background: #f1f1f1;
+}
+#square{
+    width: 480px;
+    height: 480px;
+    background: black;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+#inputBox{
+    width: 480px;
+    height: 120px;
+    background-color: cornsilk;
+    margin: auto;
+    display: inline-block;
+    border-radius: 20px;
+}
+#priInput{
+    margin: 10px auto;
+    display: flex;
+}
+#priInput p{
+    margin-left: 140px;
+}
+#secInput{
+    width: 480px;
+    margin: 5px auto;
+    display: flex;
+}
+#secInput p{
+    margin-left: 50px;
+}
+input{
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+.secLine{
+    margin: 10px;
+}
+#colorChange{
+    width: 80px
+}
+#color{
+    width: 120px;
+    margin: 10px;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 480px;
+    height: 60px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background: orange;
+}

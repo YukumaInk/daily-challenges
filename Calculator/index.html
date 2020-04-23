@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div id="calculator">
+            <div id="viewer"></div>
+
+            <button onclick="getAction('c')" class="num" data-num ="C">C</button>
+            <button onclick="getAction('ac')" class="num" data-num ="AC">AC</button>
+            <button onclick="getAction('%')" class="num" data-num ="%">%</button>
+            <button onclick="getAction('divide')" class="num" data-num ="divide">/</button>
+
+            <button onclick="getAction('7')" class="num" data-num ="7">7</button>
+            <button onclick="getAction('8')" class="num" data-num ="8">8</button>
+            <button onclick="getAction('9')" class="num" data-num ="9">9</button>
+            <button onclick="getAction('times')" class="num" data-num ="times">*</button>
+
+            <button onclick="getAction('4')" class="num" data-num ="4">4</button>
+            <button onclick="getAction('5')" class="num" data-num ="5">5</button>
+            <button onclick="getAction('6')" class="num" data-num ="6">6</button>
+            <button onclick="getAction('minus')" class="num" data-num ="minus">-</button>
+
+            <button onclick="getAction('1')" class="num" data-num ="1">1</button>
+            <button onclick="getAction('2')" class="num" data-num ="2">2</button>
+            <button onclick="getAction('3')" class="num" data-num ="3">3</button>
+            <button onclick="getAction('plus')" class="num" data-num ="plus">+</button>
+
+            <button onclick="getAction('invert')" class="num" data-num ="invert">+/-</button>
+            <button onclick="getAction('0')" class="num" data-num ="0">0</button>
+            <button onclick="getAction('decimal')" class="num" data-num ="decimal">.</button>
+            <button onclick="getAction('equal')" class="num" data-num ="equal">=</button>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
